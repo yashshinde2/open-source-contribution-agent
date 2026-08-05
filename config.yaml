@@ -1,0 +1,33 @@
+# IssuePilot Configuration File
+# Customize your tech stack, target repositories, and alert preferences here!
+
+# 1. Your Custom Tech Stack (The agent will prioritize issues matching these keywords)
+tech_stack:
+  - "python"
+  - "react"
+  - "typescript"
+  - "fastapi"
+  - "nextjs"
+  - "tailwind"
+
+# 2. Target Repositories (Optional)
+# Specify specific repos, or leave empty [] to run global GitHub search across all open-source projects!
+target_repos:
+  - "fastapi/fastapi"
+  - "facebook/react"
+  - "spring-projects/spring-boot"
+  - "freeCodeCamp/freeCodeCamp"
+  - "pallets/flask"
+
+# 3. Search & Evaluation Preferences
+max_daily_issues: 3          # Number of top scored issues to send in daily digest
+min_score_threshold: 50      # Minimum quality score (0-100) required for delivery
+search_labels:              # Issue labels to search for
+  - "good first issue"
+  - "easy"
+  - "beginner friendly"
+  - "help wanted"
+
+# 4. Notification Delivery Channel
+# Options: "telegram", "discord", or "console"
+notification_channel: "telegram"
