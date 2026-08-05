@@ -10,7 +10,9 @@ class AppConfig(BaseModel):
     tech_stack: List[str]
     target_repos: List[str] = []
     max_daily_issues: int = 3
-    min_score_threshold: int = 50
+    min_score_threshold: int = 40
+    created_within_days: int = 14
+    difficulty_preference: str = "beginner"
     search_labels: List[str] = ["good first issue"]
     notification_channel: str = "telegram"
 
