@@ -25,7 +25,7 @@ jobs:
 
       - name: Run IssuePilot Engine
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{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}}
           TELEGRAM_BOT_TOKEN: ${{8953328389:AAG4Wl9521UrqSZC50rz5jhithHWszGIBL8}}
           TELEGRAM_CHAT_ID: ${{5897660760}}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
