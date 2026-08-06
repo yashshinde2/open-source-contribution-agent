@@ -26,8 +26,8 @@ jobs:
       - name: Run IssuePilot Engine
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_BOT_TOKEN: ${{8953328389:AAG4Wl9521UrqSZC50rz5jhithHWszGIBL8}}
+          TELEGRAM_CHAT_ID: ${{5897660760}}
           DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
           python main.py
