@@ -9,6 +9,10 @@ tech_stack:
   - "fastapi"
   - "nextjs"
   - "tailwind"
+  - "C"
+  - "C++"
+  - "Java"
+  - "CyberSecurity"
 
 # 2. Target Repositories (Optional)
 # Specify specific repos, or leave empty [] to run global GitHub search across all open-source projects!
