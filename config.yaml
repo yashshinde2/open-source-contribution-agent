@@ -19,9 +19,9 @@ tech_stack:
 target_repos: []
 
 # 3. Search & Evaluation Preferences
-max_daily_issues: 3          # Number of top scored issues to send in daily digest
+max_daily_issues: 5          # Number of top scored issues to send in daily digest
 min_score_threshold: 40      # Minimum quality score (0-100) required for delivery
-created_within_days: 90      # Only fetch issues created within the last N days (Prevents duplicate alerts!)
+created_within_days: 150      # Only fetch issues created within the last N days (Prevents duplicate alerts!)
 difficulty_preference: "beginner" # "beginner", "intermediate", or "advanced"
 
 search_labels:              # Issue labels to search for
